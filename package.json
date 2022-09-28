@@ -1,0 +1,23 @@
+{
+  "name": "uif-forum-notifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "uif.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node uif.js"
+  },
+  "keywords": [],
+  "author": "",
+  "engines": {
+    "node": "16.8.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "cronjob": "^0.1.0",
+    "discord.js": "^13.2.0",
+    "dotenv": "^10.0.0",
+    "puppeteer": "^10.4.0"
+  }
+}
